@@ -4265,7 +4265,9 @@ body[data-aos-easing=ease] [data-aos] {
   padding: 15px 70px;
   padding-top: 0;
   margin-left: -70px;
-  margin-right: -70px; }
+  /* margin-right: -70px;  */
+}
+
   @media only screen and (min-width: 1200px) and (max-width: 1500px) {
     .xb-feature {
       margin-left: 0;
@@ -5436,7 +5438,7 @@ blockquote {
   border: 1px solid #f2f6ff;
   overflow: hidden;
   margin-left: -70px;
-  margin-right: -70px;
+  /* margin-right: -70px; */
   padding: 0 70px; }
   @media only screen and (min-width: 1200px) and (max-width: 1500px) {
     .xb-award {
