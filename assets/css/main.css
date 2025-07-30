@@ -6133,7 +6133,9 @@ blockquote {
   transform: scale(1.09); }
 .xb-protfolio .xb-item--img {
   overflow: hidden;
-  border-radius: 20px; }
+  border-radius: 20px; 
+  height:400px;
+}
   .xb-protfolio .xb-item--img a {
     width: 100%;
     height: 498px;
