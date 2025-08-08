@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!--========= Required meta tags =========-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Malar Hospital</title>
+
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo/favicon.png"
+      type="images/x-icon"
+    />
+
+    <!-- css include -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/recoleta-font.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<style>
+                  @media (max-width: 768px) {
+    .social-link a,
+    .social-link p{
+        color: black !important; /* For font-awesome icons & text */
+        fill: black !important;  /* For SVG icon */
+    }
+}
+
+                </style>
+  </head>
+
+  <body>
+    <!-- backtotop - start -->
+    <div class="xb-backtotop">
+      <a href="#" class="scroll">
+        <i class="far fa-arrow-up"></i>
+      </a>
+    </div>
+    <!-- backtotop - end -->
+
+    <!-- Preloader - Start -->
+    <div id="preloader">
+      <div id="loader" class="loader">
+        <div class="loader-container">
+          <div class="loader-icon">
+            <img
+              src="assets/img/malar/cropped-Malar-hospital-logo-512-x-512px-180x180.png"
+              alt="Konstruk"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preloader - End -->
+
+    <div class="body_wrap">
+      <!-- header start -->
+      <header
+        id="xb-header-area"
+        class="header-area header-style-one is-sticky"
+      >
+        <div class="xb-header">
+          <div class="container">
+            <div class="header__wrap ul_li_between">
+              <div class="header-logo" style="width: 120px">
+                <a href="index.html"
+                  ><img
+                    src="assets/img/malar/Malar-Hospital-Logo-colour.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="main-menu__wrap ul_li navbar navbar-expand-lg">
+                <nav class="main-menu collapse navbar-collapse">
+                  <ul>
+                    <li>
+                      <a href="index.html"><span>Home</span></a>
+                    </li>
+                    <li>
+                      <a href="about.html"><span>About Us</span></a>
+                    </li>
+                    <li>
+                      <a href="services.html"><span>Services</span></a>
+                    </li>
+                    <li>
+                      <a href="department.html"><span>Department</span></a>
+                    </li>
+                    <li><a href="Gallery.html"><span>Gallery</span></a></li>
+                    <li>
+                      <a href="Doctor.html"><span>Doctors</span></a>
+                    </li>
+                    <li>
+                      <a href="insurance.html"><span>Insurance</span></a>
+                    </li>
+                    <li>
+                      <a href="contact.html"><span>Contact</span></a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="xb-header-wrap">
+                  <div class="xb-header-menu">
+                    <div class="xb-header-menu-scroll">
+                      <div class="xb-menu-close xb-hide-xl xb-close"></div>
+                      <div class="xb-logo-mobile xb-hide-xl">
+                        <a href="index.html" rel="home"
+                          ><img
+                            src="assets/img/malar/Malar-Hospital-Logo-colour.png"
+                            alt=""
+                        /></a>
+                      </div>
+
+                      <nav class="xb-header-nav">
+                        <ul class="xb-menu-primary clearfix">
+                          <li>
+                            <a href="index.html"><span>Home</span></a>
+                          </li>
+                          <li>
+                            <a href="about.html"><span>About Us</span></a>
+                          </li>
+                          <li>
+                            <a href="services.html"><span>Services</span></a>
+                          </li>
+                          <li>
+                            <a href="department.html"
+                              ><span>Department</span></a
+                            >
+                          </li>
+                          <li><a href="Gallery.html"><span>Gallery</span></a></li>
+                          <li>
+                            <a href="Doctor.html"><span>Doctors</span></a>
+                          </li>
+                          <li>
+                            <a href="insurance.html"><span>Insurance</span></a>
+                          </li>
+                          <li>
+                            <a href="contact.html"><span>Contact</span></a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                  <div class="xb-header-menu-backdrop"></div>
+                </div>
+              </div>
+              <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const menuLinks = document.querySelectorAll(".main-menu ul li, .xb-menu-primary li");
+
+    menuLinks.forEach((li) => {
+        li.addEventListener("click", function () {
+            // Remove active class from all
+            menuLinks.forEach((item) => item.classList.remove("active"));
+            // Add active to clicked one
+            this.classList.add("active");
+        });
+    });
+
+    // Optionally: Set active based on current URL
+    const currentPage = window.location.pathname.split("/").pop();
+    menuLinks.forEach((li) => {
+        const link = li.querySelector("a");
+        if (link && link.getAttribute("href") === currentPage) {
+            li.classList.add("active");
+        }
+    });
+});
+</script>
+<style>
+ .main-menu ul li.active a,
+.xb-menu-primary li.active a {
+    color: orange; /* Active text color */
+    padding-bottom: 4px; /* Space for border */
+    font-weight: 600; /* Make text bold for focus */
+    position: relative;
+    transition: color 0.3s ease; /* Smooth color change */
+}
+
+
+
+/* When active, animate underline in */
+.main-menu ul li.active a::after,
+.xb-menu-primary li.active a::after {
+    transform: scaleX(1);
+}
+
+</style>
+              <div class="header-contact d-none d-lg-block">
+                <a href="tel:+91-89258 63371"
+                  ><svg
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.4175 9.40566C15.0413 9.40566 14.7438 9.09941 14.7438 8.73191C14.7438 8.40816 14.42 7.73441 13.8775 7.14816C13.3437 6.57941 12.7575 6.24691 12.2675 6.24691C11.8913 6.24691 11.5938 5.94066 11.5938 5.57316C11.5938 5.20566 11.9 4.89941 12.2675 4.89941C13.1425 4.89941 14.0613 5.37191 14.8663 6.22066C15.6188 7.01691 16.1 8.00566 16.1 8.72316C16.1 9.09941 15.7938 9.40566 15.4175 9.40566Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M18.5763 9.40625C18.2 9.40625 17.9025 9.1 17.9025 8.7325C17.9025 5.62625 15.3738 3.10625 12.2763 3.10625C11.9 3.10625 11.6025 2.8 11.6025 2.4325C11.6025 2.065 11.9 1.75 12.2675 1.75C16.1175 1.75 19.25 4.8825 19.25 8.7325C19.25 9.1 18.9438 9.40625 18.5763 9.40625Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M10.3162 12.4337L7.455 15.295C7.14 15.015 6.83375 14.7262 6.53625 14.4287C5.635 13.5187 4.82125 12.565 4.095 11.5675C3.3775 10.57 2.8 9.5725 2.38 8.58375C1.96 7.58625 1.75 6.6325 1.75 5.7225C1.75 5.1275 1.855 4.55875 2.065 4.03375C2.275 3.5 2.6075 3.01 3.07125 2.5725C3.63125 2.02125 4.24375 1.75 4.89125 1.75C5.13625 1.75 5.38125 1.8025 5.6 1.9075C5.8275 2.0125 6.02875 2.17 6.18625 2.3975L8.21625 5.25875C8.37375 5.4775 8.4875 5.67875 8.56625 5.87125C8.645 6.055 8.68875 6.23875 8.68875 6.405C8.68875 6.615 8.6275 6.825 8.505 7.02625C8.39125 7.2275 8.225 7.4375 8.015 7.6475L7.35 8.33875C7.25375 8.435 7.21 8.54875 7.21 8.68875C7.21 8.75875 7.21875 8.82 7.23625 8.89C7.2625 8.96 7.28875 9.0125 7.30625 9.065C7.46375 9.35375 7.735 9.73 8.12 10.185C8.51375 10.64 8.93375 11.1037 9.38875 11.5675C9.70375 11.8737 10.01 12.1712 10.3162 12.4337Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M19.2238 16.0389C19.2238 16.2839 19.18 16.5377 19.0925 16.7827C19.0663 16.8527 19.04 16.9227 19.005 16.9927C18.8563 17.3077 18.6638 17.6052 18.41 17.8852C17.9813 18.3577 17.5088 18.6989 16.975 18.9177C16.9663 18.9177 16.9575 18.9264 16.9488 18.9264C16.4325 19.1364 15.8725 19.2502 15.2688 19.2502C14.3763 19.2502 13.4225 19.0402 12.4163 18.6114C11.41 18.1827 10.4038 17.6052 9.40627 16.8789C9.06502 16.6252 8.72377 16.3714 8.40002 16.1002L11.2613 13.2389C11.5063 13.4227 11.725 13.5627 11.9088 13.6589C11.9525 13.6764 12.005 13.7027 12.0663 13.7289C12.1363 13.7552 12.2063 13.7639 12.285 13.7639C12.4338 13.7639 12.5475 13.7114 12.6438 13.6152L13.3088 12.9589C13.5275 12.7402 13.7375 12.5739 13.9388 12.4689C14.14 12.3464 14.3413 12.2852 14.56 12.2852C14.7263 12.2852 14.9013 12.3202 15.0938 12.3989C15.2863 12.4777 15.4875 12.5914 15.7063 12.7402L18.6025 14.7964C18.83 14.9539 18.9875 15.1377 19.0838 15.3564C19.1713 15.5752 19.2238 15.7939 19.2238 16.0389Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <span>+91 89258 63371</span></a
+                >
+              </div>
+              <div class="header-bar-mobile side-menu d-lg-none">
+                <a class="xb-nav-mobile" href="javascript:void(0);">
+                  <i class="far fa-bars"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- main area start  -->
+      <main>
+        <!-- breadcrumb start -->
+        <section
+          class="breadcrumb ul_li_center bg_img"
+          data-bg-color="#E7E9EE"
+          data-background="assets/img/bg/Insurance.png"
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-9">
+                <div class="breadcrumb__content">
+                  <h2 class="breadcrumb__title">Insurance</h2>
+                  <ul class="breadcrumb__list clearfix">
+                    <li class="breadcrumb-item">
+                      Reach Out for Disability Care Support
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- breadcrumb end -->
+
+<section class="py-5" style="background: linear-gradient(to right, #f8d9f4, #f6e8f9);">
+  <div class="container text-center">
+    <div class="mb-4">
+      <h3 class="fw-bold mt-2 text-uppercase text-purple">Insurance Empanelled at Malar Hospital</h3>
+    </div>
+
+    <div class="row g-3 justify-content-center">
+      <!-- Loop through each card with increasing delay -->
+      <!-- Card 1 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/hdfc.png" alt="HDFC Ergo" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/icici.png" alt="ICICI" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/niva.png" alt="Niva Bupa" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/TATA_AIG.png" alt="TATA AIG" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/Acko.png" alt="Acko" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/care.png" alt="Care" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <!-- Card 7 to 12 (repeat delay: 0.7s, 0.8s, etc.) -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.7s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/iffco.jpg" alt="IFFCO" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/navi.png" alt="Navi" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/sbi.jpg" alt="SBI" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="1.0s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/galaxy.png" alt="Galaxy" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="1.1s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/future.png" alt="Future" class="img-fluid logo-hover">
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="1.2s">
+        <div class="bg-white rounded shadow p-2 h-100 d-flex align-items-center justify-content-center transition-card">
+          <img src="assets/img/Insurance/shampo.jpg" alt="Shampo" class="img-fluid logo-hover">
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 bg-purple text-white rounded p-3 fw-bold fs-5">
+      For Enquiry Contact : 8925875547
+    </div>
+  </div>
+</section>
+
+<style>
+  .text-purple {
+    color: #6a1b9a;
+  }
+
+  .bg-purple {
+    background-color: #6a1b9a;
+  }
+</style>
+
+<!-- tpa -->
+ <section class="py-3 mb-5" style="background: linear-gradient(to right, #f8d9f4, #f6e8f9);">
+  <div class="container text-center">
+    <div class="mb-4">
+      <h3 class="fw-bold mt-2 text-uppercase text-purple">TPA'S</h3>
+    </div>
+
+    <div class="row g-3 justify-content-center">
+      <!-- TPA Card 1 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+        <div class="bg-white rounded shadow p-2 transition-card h-100 d-flex align-items-center justify-content-center">
+          <img src="assets/img/Insurance/MediAssist.png" alt="Medi Assist" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- TPA Card 2 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+        <div class="bg-white rounded shadow p-2 transition-card h-100 d-flex align-items-center justify-content-center">
+          <img src="assets/img/Insurance/images.png" alt="FHPL" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- TPA Card 3 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+        <div class="bg-white rounded shadow p-2 transition-card h-100 d-flex align-items-center justify-content-center">
+          <img src="assets/img/Insurance/unnamed.png" alt="AKNA" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- TPA Card 4 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+        <div class="bg-white rounded shadow p-2 transition-card h-100 d-flex align-items-center justify-content-center">
+          <img src="assets/img/Insurance/volo.jpg" alt="Volo" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- TPA Card 5 -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+        <div class="bg-white rounded shadow p-2 transition-card h-100 d-flex align-items-center justify-content-center">
+          <img src="assets/img/Insurance/logo.png" alt="TPA Logo" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .transition-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .transition-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .text-purple {
+    color: #6a1b9a;
+  }
+</style>
+
+
+
+  <style>
+  .cta {
+    margin-top: 50px;
+  }
+
+  @media (min-width: 992px) {
+    .cta {
+      margin-top: 120px;
+    }
+  }
+</style>
+
+        <!-- cta section start  -->
+        <section class="cta">
+          <div class="container">
+            <div class="cta-box">
+              <div
+                class="cta-wrap bg_img pos-rel"
+                data-background="assets/img/bg/cta-bg02.png"
+              >
+                <h2 class="xb-item--title">
+                  Get  benefit from Malar
+                </h2>
+                <span class="xb-item--sub-title"
+                  >Schedule a call with us and we’ll get back to you</span
+                >
+                <div class="cta-button pt-30">
+                  <a
+                    href="contact.html"
+                    class="thm-btn thm-white cta-btn hover-yellow"
+                    ><img src="assets/img/icon/cta-icon01.png" alt="" />
+                    schedule a callback</a
+                  >
+                </div>
+                <div class="xb-item--img">
+                  <img src="assets/img/cta/CTA.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- cta section end  -->
+      </main>
+      <!-- main area end  -->
+
+      <!-- footer strt -->
+      <footer
+        class="footer bg_img pos-rel"
+        data-background="assets/img/bg/footer3.jpg"
+      >
+        <div class="xb-footer-wrap pt-200">
+          <div class="container">
+            <div class="xb-footer-inner footer-widget-wrap pt-50">
+              <div class="row xb-footer pb-50">
+                <div
+                  class="col-xl-4 col-lg-6 col-md-6 footer-col widget-top mt-30"
+                >
+                  <div class="footer-widget">
+                    <!-- Logo Section with white background -->
+                    <div
+                      class="footer-logo mb-4"
+                      style="
+                        width: auto;
+                        
+                        padding: 6px 10px;
+                        border-radius: 6px;
+                        display: inline-block;
+                        
+                      "
+                    >
+                      <a href="index.html"><img
+                        src="assets/img/malar/Malar-Hospital-Logo-colour.png"
+                        alt="Malar Logo"
+                        style="max-width: 160px"
+                      /></a>
+                      <img
+                        src="assets/img/malar/NABH.png"
+                        alt="Malar Logo"
+                        style="max-width: 160px"
+                      />
+                     
+                    </div>
+
+                    <!-- Contact Details -->
+                    <ul class="xb-item--holder list-unstyled">
+                      <li class="xb-item--contact text-black">
+  <span>
+    <img src="assets/img/icon/footer-icon01.svg" alt="" />
+  </span>
+  <a href="tel:+918925863371" class="text-black">+91 89258 63371</a>
+</li>
+
+<li class="xb-item--contact text-black">
+  <span>
+    <img src="assets/img/icon/footer-icon02.svg" alt="" />
+  </span>
+  <a href="mailto:info@malarhospitals.com" class="text-black">info@malarhospitals.com</a>
+</li>
+
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-6 col-md-6 footer-col mt-30">
+                  <div class="footer-widget">
+                    <span class="xb-item--title" style="font-weight: bold; color: black;">Services</span>
+                    
+                   <ul class="xb-item--holder list-unstyled">
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">CT scan</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">Pharmacy 24×7</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">Operation Theatres</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">Laboratory</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">Digital X-ray</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">View More</a>
+  </li>
+</ul>
+
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-6 col-md-6 footer-col mt-30">
+                  <div class="footer-widget">
+                    <span class="xb-item--title" style="font-weight: bold; color: black;"
+                      >Department</span
+                    >
+                   <ul class="xb-item--holder list-unstyled">
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">Emergency and Trauma Care</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">General & Laparoscopic</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">General Medicine</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">Orthopaedics</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">Obstetrics and Gynaecology</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">View More</a>
+  </li>
+</ul>
+
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 footer-col mt-30">
+                  <div class="footer-widget">
+                    <span
+                      class="xb-item--title"
+                      style="
+                        display: block;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                        font-weight: bold;
+                        color: black;
+                      "
+                      >Direction</span
+                    >
+                    <div
+                      style="
+                        width: 100%;
+                        height: 250px;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                      "
+                    >
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.578402573884!2d77.8081851741158!3d12.699548920786356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae710c9fa33b99%3A0xdc1071bb695e7669!2sMalar%20Hospital!5e1!3m2!1sen!2sin!4v1753878757948!5m2!1sen!2sin"
+                        width="100%"
+                        height="100%"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      >
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom ul_li_between">
+                <div class="copyright mt-15">
+                  <p style="color: black;">
+                    Copyright © 2025 <b><a href="index.html" style="color: black;">Malar Hospital</a></b>. All rights
+                    reserved.
+                  </p>
+                </div>
+                <div class="social-link ul_li mt-15">
+                  <p style="color: rgb(252, 250, 250);">Follow us :</p>
+                   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+                 <a href="https://x.com/MalarHospital9"
+                    style="color: white;"><i class="ri-twitter-x-line"></i> </a>
+                  <a href="https://www.facebook.com/malarhospitals"
+                    style="color: white;"><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/malar-hospital-tamil-nadu/"
+                    style="color: white;"><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/malarhospital.hosur?igsh=cTU1cmpiczcyaTF4"
+                    style="color: white;"><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://youtube.com/@malarhospitaldm?si=W9FwfhG2hoY5O32H"
+                   style="color: white;">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- WhatsApp Floating Button with Animation - Start -->
+<a
+  href="https://wa.me/918925863371?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20Malar%20Hospital's%20services."
+  class="whatsapp-float-btn bounce"
+  target="_blank"
+  title="Chat with us on WhatsApp"
+>
+  <i class="fab fa-whatsapp whatsapp-icon"></i>
+</a>
+
+<style>
+  .whatsapp-float-btn {
+    position: fixed;
+    bottom: 125px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .whatsapp-float-btn:hover {
+    transform: scale(1.1);
+    background-color: #1ebe5b;
+  }
+
+  .whatsapp-icon {
+    line-height: 1;
+  }
+
+  /* Bounce Animation */
+  .bounce {
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @media (max-width: 576px) {
+    .whatsapp-float-btn {
+      width: 50px;
+      height: 50px;
+      font-size: 22px;
+      bottom: 120px;
+      right: 20px;
+    }
+  }
+</style>
+<!-- WhatsApp Floating Button with Animation - End -->
+
+      <!-- footer end -->
+    </div>
+    <!-- WOW.js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/animate.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+    <!-- jquery include -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/parallaxie.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

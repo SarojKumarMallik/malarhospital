@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!--========= Required meta tags =========-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Malar Hospital</title>
+
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo/favicon.png"
+      type="images/x-icon"
+    />
+
+    <!-- css include -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/recoleta-font.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+                  @media (max-width: 768px) {
+    .social-link a,
+    .social-link p{
+        color: black !important; /* For font-awesome icons & text */
+        fill: black !important;  /* For SVG icon */
+    }
+}
+
+                </style>
+  </head>
+
+  <body>
+    <!-- backtotop - start -->
+    <div class="xb-backtotop">
+      <a href="#" class="scroll">
+        <i class="far fa-arrow-up"></i>
+      </a>
+    </div>
+    <!-- backtotop - end -->
+
+    <!-- Preloader - Start -->
+    <div id="preloader">
+      <div id="loader" class="loader">
+        <div class="loader-container">
+          <div class="loader-icon">
+            <img
+              src="assets/img/malar/cropped-Malar-hospital-logo-512-x-512px-180x180.png"
+              alt="Konstruk"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preloader - End -->
+
+    <div class="body_wrap">
+     <!-- header start -->
+      <header
+        id="xb-header-area"
+        class="header-area header-style-one is-sticky"
+      >
+        <div class="xb-header">
+          <div class="container">
+            <div class="header__wrap ul_li_between">
+              <div class="header-logo" style="width: 120px">
+                <a href="index.html"
+                  ><img
+                    src="assets/img/malar/Malar-Hospital-Logo-colour.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="main-menu__wrap ul_li navbar navbar-expand-lg">
+                <nav class="main-menu collapse navbar-collapse">
+                  <ul>
+                    <li>
+                      <a href="index.html"><span>Home</span></a>
+                    </li>
+                    <li>
+                      <a href="about.html"><span>About Us</span></a>
+                    </li>
+                    <li>
+                      <a href="services.html"><span>Services</span></a>
+                    </li>
+                    <li>
+                      <a href="department.html"><span>Department</span></a>
+                    </li>
+                    <li><a href="Gallery.html"><span>Gallery</span></a></li>
+                    <li>
+                      <a href="Doctor.html"><span>Doctors</span></a>
+                    </li>
+                    <li>
+                      <a href="insurance.html"><span>Insurance</span></a>
+                    </li>
+                    <li>
+                      <a href="contact.html"><span>Contact</span></a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="xb-header-wrap">
+                  <div class="xb-header-menu">
+                    <div class="xb-header-menu-scroll">
+                      <div class="xb-menu-close xb-hide-xl xb-close"></div>
+                      <div class="xb-logo-mobile xb-hide-xl">
+                        <a href="index.html" rel="home"
+                          ><img
+                            src="assets/img/malar/Malar-Hospital-Logo-colour.png"
+                            alt=""
+                        /></a>
+                      </div>
+                      
+                      <nav class="xb-header-nav">
+                        <ul class="xb-menu-primary clearfix">
+                          <li>
+                            <a href="index.html"><span>Home</span></a>
+                          </li>
+                          <li>
+                            <a href="about.html"><span>About Us</span></a>
+                          </li>
+                          <li>
+                            <a href="services.html"><span>Services</span></a>
+                          </li>
+                          <li>
+                            <a href="department.html"
+                              ><span>Department</span></a
+                            >
+                          </li>
+                          <li><a href="Gallery.html"><span>Gallery</span></a></li>
+                          <li>
+                            <a href="Doctor.html"><span>Doctors</span></a>
+                          </li>
+                          <li>
+                            <a href="insurance.html"><span>Insurance</span></a>
+                          </li>
+                          <li>
+                            <a href="contact.html"><span>Contact</span></a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                  <div class="xb-header-menu-backdrop"></div>
+                </div>
+              </div>
+              <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const menuLinks = document.querySelectorAll(".main-menu ul li, .xb-menu-primary li");
+
+    menuLinks.forEach((li) => {
+        li.addEventListener("click", function () {
+            // Remove active class from all
+            menuLinks.forEach((item) => item.classList.remove("active"));
+            // Add active to clicked one
+            this.classList.add("active");
+        });
+    });
+
+    // Optionally: Set active based on current URL
+    const currentPage = window.location.pathname.split("/").pop();
+    menuLinks.forEach((li) => {
+        const link = li.querySelector("a");
+        if (link && link.getAttribute("href") === currentPage) {
+            li.classList.add("active");
+        }
+    });
+});
+</script>
+<style>
+ .main-menu ul li.active a,
+.xb-menu-primary li.active a {
+    color: orange; /* Active text color */
+    padding-bottom: 4px; /* Space for border */
+    font-weight: 600; /* Make text bold for focus */
+    position: relative;
+    transition: color 0.3s ease; /* Smooth color change */
+}
+
+
+
+/* When active, animate underline in */
+.main-menu ul li.active a::after,
+.xb-menu-primary li.active a::after {
+    transform: scaleX(1);
+}
+
+</style>
+              <div class="header-contact d-none d-lg-block">
+                <a href="tel:+91 89258 63371"
+                  ><svg
+                    width="21"
+                    height="21"
+                    viewBox="0 0 21 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.4175 9.40566C15.0413 9.40566 14.7438 9.09941 14.7438 8.73191C14.7438 8.40816 14.42 7.73441 13.8775 7.14816C13.3437 6.57941 12.7575 6.24691 12.2675 6.24691C11.8913 6.24691 11.5938 5.94066 11.5938 5.57316C11.5938 5.20566 11.9 4.89941 12.2675 4.89941C13.1425 4.89941 14.0613 5.37191 14.8663 6.22066C15.6188 7.01691 16.1 8.00566 16.1 8.72316C16.1 9.09941 15.7938 9.40566 15.4175 9.40566Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M18.5763 9.40625C18.2 9.40625 17.9025 9.1 17.9025 8.7325C17.9025 5.62625 15.3738 3.10625 12.2763 3.10625C11.9 3.10625 11.6025 2.8 11.6025 2.4325C11.6025 2.065 11.9 1.75 12.2675 1.75C16.1175 1.75 19.25 4.8825 19.25 8.7325C19.25 9.1 18.9438 9.40625 18.5763 9.40625Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M10.3162 12.4337L7.455 15.295C7.14 15.015 6.83375 14.7262 6.53625 14.4287C5.635 13.5187 4.82125 12.565 4.095 11.5675C3.3775 10.57 2.8 9.5725 2.38 8.58375C1.96 7.58625 1.75 6.6325 1.75 5.7225C1.75 5.1275 1.855 4.55875 2.065 4.03375C2.275 3.5 2.6075 3.01 3.07125 2.5725C3.63125 2.02125 4.24375 1.75 4.89125 1.75C5.13625 1.75 5.38125 1.8025 5.6 1.9075C5.8275 2.0125 6.02875 2.17 6.18625 2.3975L8.21625 5.25875C8.37375 5.4775 8.4875 5.67875 8.56625 5.87125C8.645 6.055 8.68875 6.23875 8.68875 6.405C8.68875 6.615 8.6275 6.825 8.505 7.02625C8.39125 7.2275 8.225 7.4375 8.015 7.6475L7.35 8.33875C7.25375 8.435 7.21 8.54875 7.21 8.68875C7.21 8.75875 7.21875 8.82 7.23625 8.89C7.2625 8.96 7.28875 9.0125 7.30625 9.065C7.46375 9.35375 7.735 9.73 8.12 10.185C8.51375 10.64 8.93375 11.1037 9.38875 11.5675C9.70375 11.8737 10.01 12.1712 10.3162 12.4337Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M19.2238 16.0389C19.2238 16.2839 19.18 16.5377 19.0925 16.7827C19.0663 16.8527 19.04 16.9227 19.005 16.9927C18.8563 17.3077 18.6638 17.6052 18.41 17.8852C17.9813 18.3577 17.5088 18.6989 16.975 18.9177C16.9663 18.9177 16.9575 18.9264 16.9488 18.9264C16.4325 19.1364 15.8725 19.2502 15.2688 19.2502C14.3763 19.2502 13.4225 19.0402 12.4163 18.6114C11.41 18.1827 10.4038 17.6052 9.40627 16.8789C9.06502 16.6252 8.72377 16.3714 8.40002 16.1002L11.2613 13.2389C11.5063 13.4227 11.725 13.5627 11.9088 13.6589C11.9525 13.6764 12.005 13.7027 12.0663 13.7289C12.1363 13.7552 12.2063 13.7639 12.285 13.7639C12.4338 13.7639 12.5475 13.7114 12.6438 13.6152L13.3088 12.9589C13.5275 12.7402 13.7375 12.5739 13.9388 12.4689C14.14 12.3464 14.3413 12.2852 14.56 12.2852C14.7263 12.2852 14.9013 12.3202 15.0938 12.3989C15.2863 12.4777 15.4875 12.5914 15.7063 12.7402L18.6025 14.7964C18.83 14.9539 18.9875 15.1377 19.0838 15.3564C19.1713 15.5752 19.2238 15.7939 19.2238 16.0389Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <span>+91-89258 63371</span></a
+                >
+              </div>
+              <div class="header-bar-mobile side-menu d-lg-none">
+                <a class="xb-nav-mobile" href="javascript:void(0);">
+                  <i class="far fa-bars"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- main area start  -->
+      <main>
+        <!-- breadcrumb start -->
+        <section
+          class="breadcrumb ul_li_center bg_img"
+          data-bg-color="#E7E9EE"
+          data-background="assets/img/bg/Doctors.png"
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-9">
+                <div class="breadcrumb__content">
+                  <h2 class="breadcrumb__title">Our Doctors</h2>
+                  <ul class="breadcrumb__list clearfix">
+                    <li class="breadcrumb-item">
+                      Innovating Care for Individuals with Disabilities
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- breadcrumb end -->
+
+        <!-- protfolio section start  -->
+        <section class="protfolio pos-rel pt-130 pb-100">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/Kathiravan.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Dr. B. Kathiravan</a>
+                      </h2>
+                      <span class="xb-item--text">
+                        General & Laparoscopic Surgery
+                      </span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree:</h4>
+                    <p>MBBS, MS (General Surgery)</p>
+                    <h4>Education:</h4>
+                    <ul>
+                      <li>MBBS, (Madras Medical College- 2004-2010),</li>
+                      <li>
+                        MS (General Surgery @ Madras Medical College - 2012
+                        -2015)
+                      </li>
+                      <li>FMAS (@World Laparoscopy Centre, New Delhi)</li>
+                      <li>FIAGES</li>
+                      <li>FALS (Hernia)</li>
+                      <li>eFIAGES</li>
+                    </ul>
+
+                    <h4>Designation:</h4>
+                    <p>
+                      Director and founder of Malar Hospital, Lead Consultant in
+                      Department of General and Laparoscopic Surgery
+                    </p>
+
+                    <h4>Experience:</h4>
+                    <ul>
+                      <li>
+                        Internship at Prestigious Madras Medical College,
+                        Chennai
+                      </li>
+                      <li>
+                        PG Degree in General Surgery with 3 years of experience
+                        at Institute of General Surgery, Madras Medical College
+                      </li>
+                      <li>
+                        Worked as Assistant Surgeon in Government Hospital Hosur
+                        for 7yrs (2015-2022)
+                      </li>
+                      <li>
+                        Consultant General and Laparoscopic Surgeon in Hosur
+                        with 10 years of experience across multiple hospitals in
+                        and around Hosur
+                      </li>
+                    </ul>
+
+                    <h4>Aspirations & Interests:</h4>
+                    <p>
+                      Minimally invasive surgeries for a wide range of diseases
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/hema.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="Doctor-single.html"
+                          >Dr. Hema Manickavasagam
+                        </a>
+                      </h2>
+                      <span class="xb-item--text"
+                        >Paediatrics & Neonatology</span
+                      >
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree</h4>
+                    <p>Consultant- Paediatrics & Neonatology</p>
+                    <h4>Education:</h4>
+                    <ul>
+                      <li>
+                        UG MBBS- GOVERNMENT STANLEY MEDICAL COLLEGE AND HOSPITAL
+                      </li>
+                      <li>
+                        PG MD -GOVERMENT MOHAN KUMARAMANGALAM MEDICAL COLLEGE
+                        AND HOSPITAL
+                      </li>
+                    </ul>
+
+                    <h4>Designation:</h4>
+                    <p>Consultant paediatrician and neonatologist</p>
+
+                    <h4>Experience:</h4>
+                    <p>1 year 10 months</p>
+
+                    <h4>Aspirations & Interests:</h4>
+                    <p>
+                      Can be combined in overview or can be given as separate
+                      tab’ Dr. Hema says that caring for young children has been
+                      her true calling since her undergraduate days. As a
+                      paediatrician, I find immense joy and purpose in
+                      journeying with children and their families—from infancy
+                      through adolescence. Every child I see is not just a
+                      patient, but a story unfolding, and I feel privileged to
+                      be part of that story. My focus has always been on the
+                      preventive side of health. I believe that building a
+                      strong foundation early can change a child’s entire
+                      future. That is why I give special attention to timely
+                      vaccinations, developmental screening, and comprehensive
+                      health checks during every visit. From nutrition and
+                      dental hygiene to skin health, I ensure no aspect of a
+                      child’s well-being is overlooked. What truly drives me is
+                      the trust families place in me. It is this connection that
+                      inspires me to keep learning, growing, and giving each
+                      child the healthiest, happiest start in life.
+                    </p>
+                    <h4>Awards & Recognition:</h4>
+                    <ul>
+                      <li>
+                        Dr. TKP Thirugnanasambatham Gold Medal Award for Best
+                        Outgoing Postgraduate (2023) Winner of IAP PG Quiz
+                      </li>
+                      <li>
+                        College Level Round (2021 and 2022) 2nd Prize in IAP PG
+                        Quiz
+                      </li>
+                      <li>
+                        Divisional Round (2021 and 2022) Winner of IAP
+                        Breastfeeding Week Quiz (2021 and 2022)
+                      </li>
+                    </ul>
+                    <h5>PUBLICATION:</h5>
+                    <p>
+                      • Published a paper in renowned national journal "INDIAN
+                      PEDIATRICS" under IAP on PREMATURE ATHEROSCLEROSIS IN
+                      THALASSEMIA CHILDREN-TWIN CENTR STUDY"
+                    </p>
+                    <h5>State Level Presentations:</h5>
+                    <ul>
+                      <li>
+                        IAP Tamil Nadu State Chapter, TAMIRA PEDICON 2024- Gold
+                        medal -T R RAJAGOPAL for Best scientific paper.
+                      </li>
+                      <li>
+                        IAP Tamil Nadu State Chapter, Madurai PEDICON
+                        2022 Award: Third Prize - B. R. Santhanakrishnan Award
+                        for Scientific Paper Topic: "A Study on Premature
+                        Atherosclerosis in Thalassemia Children: A Twin Centre
+                        Study"
+                      </li>
+                      <li>
+                        IAP Tamil Nadu State Chapter, Sangamam PEDICON
+                        2023 Presentation: Paper presented for K. A.
+                        Krishnamoorthy Award Topic: "Stress Experienced by
+                        Parents of Neonates Admitted in Neonatal Intensive Care
+                        Unit"
+                      </li>
+                    </ul>
+                    <h4>Doctor Timings:</h4>
+                    <p>
+                      Available on all days except Sunday – 10:30am to 2:00pm &
+                      6:00pm to 8:30pm
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <!-- Shared Styles (Only need to include this once on the page) -->
+              <style>
+                .xb-item--arrow svg {
+                  transition: transform 0.3s ease;
+                }
+
+                .xb-item--arrow.active svg {
+                  transform: rotate(180deg);
+                }
+
+                .xb-item--details {
+                  max-height: 0;
+                  overflow: hidden;
+                  transition: max-height 0.4s ease, padding 0.3s ease;
+                  padding: 0 15px;
+                  font-size: 14px;
+                  color: #444;
+                }
+
+                .xb-item--details.open {
+                  max-height: fit-content;
+                  padding: 15px;
+                }
+
+                .xb-item--details h4 {
+                  margin-top: 10px;
+                  font-weight: bold;
+                  color: #222;
+                }
+
+                .xb-item--details ul {
+                  padding-left: 20px;
+                  margin: 5px 0 10px;
+                }
+
+                .xb-item--details li {
+                  list-style: disc;
+                  line-height: 1.6;
+                }
+
+                .xb-item--details p {
+                  margin-bottom: 10px;
+                }
+              </style>
+
+              <!-- Card 1 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/malar/Female.png" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Indhusree</a>
+                      </h2>
+                      <span class="xb-item--text"
+                        >Paediatrics & Neonatology</span
+                      >
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree</h4>
+                    <p>MBBS, DCH (NBE)</p>
+                    <h4>Education:</h4>
+                    <p>MBBS, DCH (NBE)</p>
+                    <h4>Designation:</h4>
+                    <p>Paediatrician</p>
+
+                    <h4>Experience:</h4>
+                    <p>2 months</p>
+                    <h4>Specialization:</h4>
+                    <p>Paediatrics</p>
+                    <h4>Aspirations & Interests:</h4>
+                    <p>Completed PALS & NRP Training</p>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/Parvathy.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Dr. Parvathy Vinoth</a>
+                      </h2>
+                      <span class="xb-item--text"
+                        >Obstetrics & Gynaecology</span
+                      >
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree</h4>
+                    <p>MBBS, M.D (O&G)</p>
+                    <h4>Education:</h4>
+                    <ul>
+                      <li>UG at Stanley Medical College, Chennai</li>
+                      <li>PG at RSRM (Stanley Medical College)</li>
+                    </ul>
+
+                    <h4>Designation:</h4>
+                    <p>Consultant in obstetrics and gynaecology</p>
+
+                    <h4>Experience:</h4>
+                    <p>
+                      15 years of experience in the field of obstetrics and
+                      gynaecology
+                    </p>
+                    <h4>Specialization:</h4>
+                    <p>Obstetrics, gynaecology, infertility</p>
+
+                    <h4>Awards & Recognition:</h4>
+                    <ul>
+                      <li>
+                        Award of appreciation from district collector in 2017
+                        for conducting the highest number of deliveries for HIV
+                        positive mothers in the district (2016-2017).
+                      </li>
+                      <li>
+                        Best performance award from health minister (2019) for
+                        outstanding performance in healthcare activities.
+                      </li>
+                      <li>
+                        Best appreciation award from mission director national
+                        health mission for LAQSHYA (labour ward quality
+                        improvement initiative) on behalf of the government
+                        headquarters hospital, Hosur (2023)
+                      </li>
+                      <li>
+                        Best doctor & appreciation award from the district
+                        collector (2024) on Independence Day for rendering good
+                        health services.
+                      </li>
+                    </ul>
+                  </article>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/Moulidharan.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="Doctor-single.html"
+                          >Dr. R. Moulidharan Ravi</a
+                        >
+                      </h2>
+                      <span class="xb-item--text">Orthopaedics</span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Designation:</h4>
+                    <ul>
+                      <li>DNB., MNAMS</li>
+                      <li>MS ORTHOPAEDICS</li>
+                    </ul>
+                    <h4>Education:</h4>
+                    <p>MBBS</p>
+                    <h4>Designation:</h4>
+                    <p>Consultant Orthopaedic Surgeon</p>
+
+                    <h4>Experience:</h4>
+                    <p>9 years of experience</p>
+
+                    <h4>Specialization:</h4>
+                    <ul>
+                      <li>Adult Hip & Knee Reconstruction</li>
+                      <li>Arthroscopy Joint Surgery</li>
+                      <li>Pelvic Acetabular Trauma</li>
+                      <li>Complex Fracture Management</li>
+                      <li>Surgical Team Leadership</li>
+                      <li>Clinical Research</li>
+                      <li>Innovation</li>
+                    </ul>
+                  </article>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/Ramkumar.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Dr. Ram Kumar. R.</a>
+                      </h2>
+                      <span class="xb-item--text">General Medicine </span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree:</h4>
+                    <p>M.D. General Medicine</p>
+
+                    <h4>Designation:</h4>
+                    <p>Consultant Physician & Diabetologist</p>
+
+                    <h4>Experience:</h4>
+                    <p>4 years of experience</p>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Shared Script (Only once) -->
+              <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                  const toggleBtns = document.querySelectorAll(
+                    ".toggle-details-btn"
+                  );
+
+                  toggleBtns.forEach((btn) => {
+                    btn.addEventListener("click", function (e) {
+                      e.preventDefault();
+                      const card = this.closest(".xb-protfolio");
+                      const details = card.querySelector(".xb-item--details");
+
+                      this.classList.toggle("active");
+                      details.classList.toggle("open");
+                    });
+                  });
+                });
+              </script>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/malar/Female.png" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Ekatha C N</a>
+                      </h2>
+                      <span class="xb-item--text">ENT</span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree:</h4>
+                    <p>MBBS, MS ENT</p>
+                    <h4>Education:</h4>
+                    <p>MS ENT</p>
+
+                    <h4>Designation:</h4>
+                    <p>Consultant ENT Surgeon</p>
+
+                    <h4>Experience:</h4>
+                    <p>6 years</p>
+                    <h4>Specialization:</h4>
+                    <p>ENT</p>
+
+                    <h4>Aspirations & Interests:</h4>
+                    <p>Endoscopic ear and nose surgeries</p>
+                  </article>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/Nandhini.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Dr. K. Nandhini</a>
+                      </h2>
+                      <span class="xb-item--text">Dentistry</span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree:</h4>
+                    <p>Fellowship in Clinical orthodontics</p>
+                    <h4>Education:</h4>
+                    <p>BDS</p>
+
+                    <h4>Designation:</h4>
+                    <p>Dental Surgeon</p>
+
+                    <h4>Experience:</h4>
+                    <p>9 years of experience</p>
+
+                    <h4>Aspirations & Interests:</h4>
+                    <p>
+                      Minimally invasive surgeries for a wide range of diseases
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/Saranya.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Sarenya Preyah. A</a>
+                      </h2>
+                      <span class="xb-item--text">Radiology</span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree:</h4>
+                    <p>DMRD, DNB radiology</p>
+                    <h4>Education:</h4>
+                    <p>MBBS</p>
+
+                    <h4>Designation:</h4>
+                    <p>Radiologist</p>
+
+                    <h4>Experience:</h4>
+                    <p>4 years of experience</p>
+                    <h4>Specialization:</h4>
+                    <p>
+                      Cross Section Imaging (CT & MRI), Online Certificate
+                      Course in foetal imaging (foetal USG from BFMC)
+                    </p>
+                    <h4>Aspirations & Interests:</h4>
+                    <ul>
+                      <li>
+                        Areas of interest – Cross section Imaging (CT & MRI),
+                        Neuroimaging, Thoracic Imaging
+                      </li>
+                      <li>Goal: MRI Machine</li>
+                    </ul>
+                  </article>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/Vanitha.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Dr. R. Vanitha</a>
+                      </h2>
+                      <span class="xb-item--text">Ophthalmology</span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Education:</h4>
+                    <p>MBBS, MS (Ophthalmology)</p>
+
+                    <h4>Designation:</h4>
+                    <p>Assistant Professor, Consultant Ophthalmologist</p>
+
+                    <h4>Experience:</h4>
+                    <p>12 years</p>
+                    <h4>Specialization:</h4>
+                    <p>Phaco surgery, Medical Retina and Laser</p>
+                    <h4>Awards & Recognition:</h4>
+                    <p>
+                      Short term fellowship in Phaco surgery, short term
+                      fellowship in Medical Retina and laser.
+                    </p>
+                    <h4>Aspirations & Interests:</h4>
+                    <p>
+                      To provide state of the art Medical and surgical care to
+                      the patients.
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/team/Bhuvana.webp" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Dr. M. Bhuvana</a>
+                      </h2>
+                      <span class="xb-item--text">Dermatology</span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree:</h4>
+                    <p>MBBS, MDVL</p>
+                    <h4>Education:</h4>
+                    <p>MDDVL</p>
+
+                    <h4>Designation:</h4>
+                    <p>Consultant Dermatologist</p>
+
+                    <h4>Experience:</h4>
+                    <p>5 years of experience</p>
+                    <h4>Specialization:</h4>
+                    <p>Dermatology</p>
+                    <h4>Aspirations & Interests:</h4>
+                    <p>Clinical Dermatology.</p>
+                  </article>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/malar/male-avatar.jpg" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Dr. M Udayakumar</a>
+                      </h2>
+                      <span class="xb-item--text">Urology</span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree:</h4>
+                    <p>M.ch (urology)</p>
+                    <h4>Education:</h4>
+                    <p>MBBS, Ms (general surgery)</p>
+
+                    <h4>Designation:</h4>
+                    <p>Consultant Urologist</p>
+
+                    <h4>Experience:</h4>
+                    <p>7 years of experience</p>
+                    <h4>Specialization:</h4>
+                    <p>Urology and andrology</p>
+                  </article>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="xb-protfolio xb-protfolio-two mb-60">
+                  <div class="xb-item--img">
+                    <a href="#">
+                      <img src="assets/img/malar/male-avatar.jpg" alt="" />
+                    </a>
+                  </div>
+
+                  <div class="xb-item--holder ul_li_between">
+                    <div class="xb-item--inner">
+                      <h2 class="xb-item--title">
+                        <a href="#">Dr. Vijaiy Vignesh K</a>
+                      </h2>
+                      <span class="xb-item--text">Pulmonology</span>
+                    </div>
+                    <a href="#!" class="xb-item--arrow toggle-details-btn">
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1C14 0.447716 13.5523 0 13 0H4C3.44771 0 3 0.447716 3 1C3 1.55229 3.44771 2 4 2H12V10C12 10.5523 12.4477 11 13 11C13.5523 11 14 10.5523 14 10V1ZM1.70711 13.7071L13.7071 1.70711L12.2929 0.292894L0.292893 12.2929L1.70711 13.7071Z"
+                          fill="#06083C"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                  <article class="xb-item--details">
+                    <h4>Degree:</h4>
+                    <p>MD, DNB</p>
+                    <h4>Education:</h4>
+                    <p>MBBS</p>
+
+                    <h4>Designation:</h4>
+                    <p>Medical Officer, PHC</p>
+
+                    <h4>Experience:</h4>
+                    <p>9.8 years of experience</p>
+                    <h4>Specialization:</h4>
+                    <p>
+                      DNB Respiratory Medicine from National Board of
+                      Examinations in Medical Sciences
+                    </p>
+                    <h4>Awards & Recognition:</h4>
+                    <p>
+                      Indian Chest Society (ICS) European Respiratory Society
+                      (ERS), Basic Course in Biomedical Research by ICMR/NIE
+                    </p>
+                    <h4>Aspirations & Interests:</h4>
+                    <p>
+                      Tuberculosis, obstructive and allergic airway diseases,
+                      non-Invasive ventilation, respiratory failure, sleep
+                      related breathing disorders, lung cancer, Covid and
+                      post-covid sequalae.
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- protfolio section end  -->
+
+        <!-- cta section start  -->
+        <section class="cta">
+          <div class="container">
+            <div class="cta-box">
+              <div
+                class="cta-wrap bg_img pos-rel"
+                data-background="assets/img/bg/cta-bg02.png"
+              >
+                <h2 class="xb-item--title">
+                  Get benefit from Malar
+                </h2>
+                <span class="xb-item--sub-title"
+                  >Schedule a call with us and we’ll get back to you</span
+                >
+                <div class="cta-button pt-30">
+                  <a
+                    href="contact.html"
+                    class="thm-btn thm-white cta-btn hover-yellow"
+                    ><img src="assets/img/icon/cta-icon01.png" alt="" />
+                    schedule a callback</a
+                  >
+                </div>
+                <div class="xb-item--img">
+                  <img src="assets/img/cta/CTA.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- cta section end  -->
+      </main>
+      <!-- main area end  -->
+
+     <footer
+        class="footer bg_img pos-rel"
+        data-background="assets/img/bg/footer3.jpg"
+      >
+        <div class="xb-footer-wrap pt-200">
+          <div class="container">
+            <div class="xb-footer-inner footer-widget-wrap pt-50">
+              <div class="row xb-footer pb-50">
+                <div
+                  class="col-xl-4 col-lg-6 col-md-6 footer-col widget-top mt-30"
+                >
+                  <div class="footer-widget">
+                    <!-- Logo Section with white background -->
+                    <div
+                      class="footer-logo mb-4"
+                      style="
+                        width: auto;
+                        
+                        padding: 6px 10px;
+                        border-radius: 6px;
+                        display: inline-block;
+                        
+                      "
+                    >
+                      <a href="index.html"><img
+                        src="assets/img/malar/Malar-Hospital-Logo-colour.png"
+                        alt="Malar Logo"
+                        style="max-width: 160px"
+                      /></a>
+                      <img
+                        src="assets/img/malar/NABH.png"
+                        alt="Malar Logo"
+                        style="max-width: 160px"
+                      />
+                    </div>
+
+                    <!-- Contact Details -->
+                    <ul class="xb-item--holder list-unstyled">
+                      <li class="xb-item--contact text-black">
+  <span>
+    <img src="assets/img/icon/footer-icon01.svg" alt="" />
+  </span>
+  <a href="tel:+918925863371" class="text-black">+91 89258 63371</a>
+</li>
+
+<li class="xb-item--contact text-black">
+  <span>
+    <img src="assets/img/icon/footer-icon02.svg" alt="" />
+  </span>
+  <a href="mailto:info@malarhospitals.com" class="text-black">info@malarhospitals.com</a>
+</li>
+
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-6 col-md-6 footer-col mt-30">
+                  <div class="footer-widget">
+                    <span class="xb-item--title" style="font-weight: bold; color: black;">Services</span>
+                    
+                    <ul class="xb-item--holder list-unstyled">
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">CT scan</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">Pharmacy 24×7</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">Operation Theatres</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">Laboratory</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">Digital X-ray</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="services.html" style="color: black; text-decoration: none;">View More</a>
+  </li>
+</ul>
+
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-6 col-md-6 footer-col mt-30">
+                  <div class="footer-widget">
+                    <span class="xb-item--title" style="font-weight: bold; color: black;"
+                      >Department</span
+                    >
+                   <ul class="xb-item--holder list-unstyled">
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">Emergency and Trauma Care</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">General & Laparoscopic</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">General Medicine</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">Orthopaedics</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">Obstetrics and Gynaecology</a>
+  </li>
+  <li class="xb-item--list">
+    <a href="department.html" style="color: black; text-decoration: none;">View More</a>
+  </li>
+</ul>
+
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 footer-col mt-30">
+                  <div class="footer-widget">
+                    <span
+                      class="xb-item--title"
+                      style="
+                        display: block;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                        font-weight: bold;
+                        color: black;
+                      "
+                      >Direction</span
+                    >
+                    <div
+                      style="
+                        width: 100%;
+                        height: 250px;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                      "
+                    >
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.578402573884!2d77.8081851741158!3d12.699548920786356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae710c9fa33b99%3A0xdc1071bb695e7669!2sMalar%20Hospital!5e1!3m2!1sen!2sin!4v1753878757948!5m2!1sen!2sin"
+                        width="100%"
+                        height="100%"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      >
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom ul_li_between">
+                <div class="copyright mt-15">
+                  <p style="color: black;">
+                    Copyright © 2025 <b><a href="index.html" style="color: black;">Malar Hospital</a></b>. All rights
+                    reserved.
+                  </p>
+                </div>
+                <div class="social-link ul_li mt-15">
+                  <p style="color: rgb(252, 250, 250);">Follow us :</p>
+                  
+                  
+                  
+                    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+                  
+                  <a href="https://x.com/MalarHospital9"
+                    style="color: white;"><i class="ri-twitter-x-line"></i> </a>
+                  <a href="https://www.facebook.com/malarhospitals"
+                    style="color: white;"><i class="fab fa-facebook-f"></i
+                  > </a>
+                  <a
+                    href="https://www.linkedin.com/company/malar-hospital-tamil-nadu/"
+                    style="color: white;"><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/malarhospital.hosur?igsh=cTU1cmpiczcyaTF4"
+                    style="color: white;"><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://youtube.com/@malarhospitaldm?si=W9FwfhG2hoY5O32H"
+                   style="color: white;">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- WhatsApp Floating Button with Animation - Start -->
+<a
+  href="https://wa.me/918925863371?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20Malar%20Hospital's%20services."
+  class="whatsapp-float-btn bounce"
+  target="_blank"
+  title="Chat with us on WhatsApp"
+>
+  <i class="fab fa-whatsapp whatsapp-icon"></i>
+</a>
+
+<style>
+  .whatsapp-float-btn {
+    position: fixed;
+    bottom: 125px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .whatsapp-float-btn:hover {
+    transform: scale(1.1);
+    background-color: #1ebe5b;
+  }
+
+  .whatsapp-icon {
+    line-height: 1;
+  }
+
+  /* Bounce Animation */
+  .bounce {
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @media (max-width: 576px) {
+    .whatsapp-float-btn {
+      width: 50px;
+      height: 50px;
+      font-size: 22px;
+      bottom: 120px;
+      right: 20px;
+    }
+  }
+</style>
+<!-- WhatsApp Floating Button with Animation - End -->
+
+      <!-- footer end -->
+    </div>
+
+    <!-- jquery include -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/parallaxie.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
